@@ -3,7 +3,7 @@
 const container = document.querySelector(".data-container");
 
 // Define image source
-const imgSource = '/sundalang.jpg';
+const imgSource = 'sundalang.jpg';
 
 // Function untuk shuffle array
 function shuffleArray(array) {
@@ -141,4 +141,5 @@ function disable() {
     // To disable the button "Selection Sort"
     document.getElementById("Button2").disabled = true;
     document.getElementById("Button2").style.backgroundColor = "#585b70";
+
 }
